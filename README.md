@@ -41,7 +41,7 @@ python detection.py \
 ```
 
 
-## 🫱🏻‍🫲🏾Cite this work
+## 🤝Cite this work
 You are encouraged to cite the following papers if you use the repo for academic research.
 
 ```
