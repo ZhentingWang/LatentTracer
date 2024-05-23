@@ -29,7 +29,7 @@ python run_write_re_loss_to_txt.py --gpu 4 --filePath ./sdv15_generated_imgs/ --
 --num_iter 100 --write_txt_path ./ReconstructionLosses_Model_sdv2base_Images_sdv15Generated.txt
 ```
 
-# Belonging detection and visualization the distributions of the reconstruction losses
+# 🕵️Belonging detection and visualization the distributions of the reconstruction losses
 
 ```bash
 python detection.py \
