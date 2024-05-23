@@ -2,7 +2,7 @@
 
 This repository is the source code for "How to Trace Latent Generative Model Generated Images without Artificial Watermark?" (ICML 2024).
 
-# 🔬Environment
+## 🔬Environment
 See requirements.txt
 
 # 🧰Generating images
