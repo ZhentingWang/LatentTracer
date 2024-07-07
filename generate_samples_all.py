@@ -101,7 +101,7 @@ prompt_list = ["cyber punk robot, dark soul blood borne boss, face hidden, RTX t
             ]
 
 
-save_folder = "./cvpr24_"+args.arch+"_generated_imgs/"
+save_folder = "./"+args.arch+"_generated_imgs/"
 
 if not os.path.exists(save_folder):
     os.makedirs(save_folder)
