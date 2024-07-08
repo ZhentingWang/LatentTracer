@@ -100,8 +100,10 @@ prompt_list = ["cyber punk robot, dark soul blood borne boss, face hidden, RTX t
             "Halvard, druid, Spring, green, yellow, red, vibrant, wild, wildflowers masterpiece, shadows, expert, insanely detailed, 4k resolution, intricate detail, art inspired by diego velazquez eugene delacroix",
             ]
 
-
-save_folder = "./"+args.arch+"_generated_imgs/"
+if args.save_dir:
+    save_folder = args.save_dir
+else:
+    save_folder = "./"+args.arch+"_generated_imgs/"
 
 if not os.path.exists(save_folder):
     os.makedirs(save_folder)
