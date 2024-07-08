@@ -5,6 +5,8 @@ This repository is the source code for "How to Trace Latent Generative Model Gen
 ## 🔬Environment
 See requirements.txt
 
+The version of Python is 3.10
+
 ## 🧰Generating images
 
 For example, generating images using Stable Diffusion v1-5:
