@@ -1,6 +1,6 @@
 # LatentTracer
 
-This repository is the source code for ["How to Trace Latent Generative Model Generated Images without Artificial Watermark?"]("https://arxiv.org/pdf/2405.13360") (ICML 2024).
+This repository is the source code for [How to Trace Latent Generative Model Generated Images without Artificial Watermark?](https://arxiv.org/pdf/2405.13360) (ICML 2024).
 
 ## 🔬Environment
 See requirements.txt
