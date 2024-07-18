@@ -16,6 +16,7 @@ parser.add_argument('--txt_1', type=str, default='100')
 parser.add_argument('--txt_2', type=str, default='100')
 parser.add_argument('--label_1', type=str, default='100')
 parser.add_argument('--label_2', type=str, default='100')
+parser.add_argument('--threshold', type=float, default=1e-4)
 parser.add_argument('--save_name', type=str, default='100')
 
 args = parser.parse_args()
@@ -33,9 +34,9 @@ with open(args.txt_2) as f2:
 print(list_1)
 print(list_2)
 
-list_1.sort()
-threshold = list_1[-int(0.05*len(list_1))]
-print(threshold)
+
+threshold = args.threshold
+
 
 fp=0
 fn=0
