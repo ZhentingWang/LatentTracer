@@ -39,9 +39,11 @@ python detection.py \
 --txt_2 ./ReconstructionLosses_Model_sdv2base_Images_sdv15Generated.txt \
 --label_1 'Belongings' \
 --label_2 'Non-belongings' \
+--threshold 1e-4 \
 --save_name ./distribution.pdf
 ```
 
+Note that the threshold needs to be adjusted for different inspected model based on the distribution of reconstruction losses on its belonging images.
 
 ## 🤝Cite this work
 You are encouraged to cite the following papers if you use the repo for academic research.
